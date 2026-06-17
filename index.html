@@ -1,42 +1,19 @@
 <!DOCTYPE html>
-<html lang ="pt-br">
-
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meus obejtivos do ano</title>
-<link rel="stylesheet"href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extrator de palavras</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="conteudo-principal">
-    <h2 class="titulo-pricipal">Meus obejtivos do ano <span></span></h2>
-    <div class="botoes">
-        <button class="botao">cursos alura</button>
-        <button class="botao">criar projetos em Javascript</button>
-        <button class="botao">criar um portifolio</button>
-        <button class="botao">Atualizar meu curriculo</button>
+    <div class="container">
+        <h1>Extrator de palavras</h1>
+        <textarea id="entrada-de-texto" placeholder="Digite o seu texto ou cole aqui..." ></textarea>
+        <button id="botao-palavrachave">Extrair</button>
+        <div id="resultado-palavrachave"></div>
     </div>
-    
-    <div class="abas-textos">
-    <div class="aba-conteudo">
-        <h3 class="aba-conteudo-titulo-princpal">Estudar 4 cursos no Alura</h3>
-        <h4 class="aba-conteudo-titulo-secundario">tempo para completar o objetivo</h4>
-    </div>
-    <div class="aba-conteudo">
-        <h3 class="aba-conteudo-titulo-princpal">criar 5 projetos em Javascript</h3>
-        <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo </h4>
-        </div>
-
-    <div class="aba-conteudo">
-        <h3 class="aba-conteudo-titulo-princpal">criar um portifoliocom os meus 3 melhores projetos</h3>
-      <h4 class="aba-conteudo-titulo-secundario">Tempo para comletar o objetivo</h4>
-    </div>
-     
-    <div class="aba-conteudo">
-        <h3 class="aba-conteudo-titulo-princpal">Atualizar meu curriculo com os certificados da Alura</h3>
-        <h4 class="aba-conteudo-titulo-secundario">tempo para completar o objetivo</h4>
-    </div>
-    </div>
-</section>
+    <script src="main.js"></script>
 </body>
 </html>
